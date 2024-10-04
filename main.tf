@@ -7,7 +7,7 @@ secret_key = var.secret_key
 resource "aws_instance" "name" {
   ami                    = "ami-0dee22c13ea7a9a67"
   instance_type          = "t3.micro"
-  key_name               = "lms"
+  key_name               = "lms.pem"
   vpc_security_group_ids = ["sg-0493213f585412a23"]
   tags = {
     name = "lms1122"
