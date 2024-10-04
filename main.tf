@@ -10,7 +10,7 @@ resource "aws_instance" "name" {
   key_name               = "lms"
   vpc_security_group_ids = ["sg-0493213f585412a23"]
   tags = {
-    name = "lms"
+    name = "lms1122"
   }
   provisioner "remote-exec" {
     inline = [
