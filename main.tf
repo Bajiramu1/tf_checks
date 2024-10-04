@@ -8,7 +8,7 @@ resource "aws_instance" "name" {
   ami                    = "ami-0dee22c13ea7a9a67"
   instance_type          = "t3.micro"
   key_name               = "lms"
-  vpc_security_group_ids = ["sg-0c4859c8c0e61b2d1"]
+  vpc_security_group_ids = ["sg-0493213f585412a23"]
   tags = {
     name = "lms"
   }
